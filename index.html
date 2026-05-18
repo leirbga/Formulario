@@ -23,7 +23,7 @@
 </div>
 <div class="form-div">
     <select id="countries">
- <option value="" selected disabled> Selecciona un país</option>
+        <option value="" disabled selected> Selecciona un país</option>
         <option data-countryCode="GB" value="44">UK (+44)</option>
         <option data-countryCode="US" value="1">USA (+1)</option>
 		<option data-countryCode="DZ" value="213">Algeria (+213)</option>
@@ -260,8 +260,16 @@ Debe incluir al menos una mayúscula y un número, una minúscula. Min 8 caracte
 <p class="information">Las contraseñas deben coincidir.</p>
     </div>
 </div>
-<button disabled id="form-btn">Registrar</button>
+<button id="form-btn" class="abilitar">Registrar</button>
 </form>
+
+<div id="registrado" style="display: none;">
+	<div class="contenido2">
+	<div class="regis">
+	<button id="regis2">Reiniciar Formulario</button>
+	</div>
+	</div>
+</div>
 <footer id="web">
 	Creado por <a href="https://github.com/DonOviedo" target="_blank">Jose Oviedo</a>
 </footer>
