@@ -106,9 +106,9 @@ registrar2.addEventListener('click', evento =>{
     }
     registrar4.innerHTML= `
         <h1>Felicidadees te has registrado con Exito!</h1>
-        <p>Tus datos registrados:
-        Nombre: ${respuestas.Username}
-        Email: ${respuestas.Email}
+        <p>Tus datos registrados:<br>
+        Nombre: ${respuestas.Username} <br>
+        Email: ${respuestas.Email} <br>
         Telefono: ${codigo.innerHTML} ${telefono.value}
         </p>
     `;
