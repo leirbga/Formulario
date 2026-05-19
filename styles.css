@@ -2,13 +2,14 @@ body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, rgb(64, 10, 212), rgb(129, 9, 209));
+  background-color: #6A5ACD;
+  /* background: linear-gradient(to right, rgb(64, 10, 212), rgb(129, 9, 209)); */
 }
 
 @media(max-width: 920px){
     #myForm{
     width: auto;
-    background-color: rgb(109, 68, 223);
+    background-color: #ca98ca;
     margin: 40px 40px 10px 40px;
     padding: 40px;
     display: grid;
@@ -17,7 +18,7 @@ body{
 }
 
 .form-div{
-    background-color: rgba(68, 76, 184, 0.658);
+    background-color: #5980a6;
     display: flex;
     flex-direction: column;
     padding: 15px 30px;
@@ -30,7 +31,7 @@ body{
 @media(min-width: 1050px){
     #myForm{
     width: auto;
-    background-color: rgb(109, 68, 223);
+    background-color: #ca98ca;
     margin: 90px 600px 10px 600px;
     padding: 40px;
     display: grid;
@@ -39,7 +40,7 @@ body{
 }
 
 .form-div{
-    background-color: rgba(68, 76, 184, 0.658);
+    background-color: #5980a6;
     display: flex;
     flex-direction: column;
     padding: 15px 30px;
@@ -57,7 +58,7 @@ body{
 
 #form-btn{
     color: rgb(31, 31, 34);
-    background-color: green;
+    background-color: #66CDAA;
     width: 100%;
     padding: 15px;
     border-radius: 5px;
