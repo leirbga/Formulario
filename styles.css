@@ -6,7 +6,7 @@ body{
   /* background: linear-gradient(to right, rgb(64, 10, 212), rgb(129, 9, 209)); */
 }
 
-@media(max-width: 920px){
+@media(max-width: 320px—480px){
     #myForm{
     width: auto;
     background-color: #ca98ca;
@@ -28,7 +28,7 @@ body{
 }
 
 
-@media(min-width: 1050px){
+@media(min-width: 481px){
     #myForm{
     width: auto;
     background-color: #ca98ca;
