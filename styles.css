@@ -30,9 +30,9 @@ body{
 @media(min-width: 1050px){
     #myForm{
         width: 100%;
-        max-width: 500px; 
+        max-width: 500px; /* Evita que el formulario se estire infinito a lo ancho */
         background-color: #ca98ca;
-        margin: 90px auto 10px auto;
+        margin: 90px auto 10px auto; /* Centrado automático perfecto sin aplastar el diseño */
         padding: 40px;
         display: grid;
         row-gap: 15px;
@@ -48,7 +48,6 @@ body{
         border-radius: 5px;
     }
 }
-
 
 .information{
     margin: 0px;
