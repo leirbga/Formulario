@@ -27,7 +27,7 @@ body{
 }
 
 
-@media(min-width: 1050px){
+@media(min-width: 481px){
     #myForm{
         width: 100%;
         max-width: 500px; /* Evita que el formulario se estire infinito a lo ancho */
