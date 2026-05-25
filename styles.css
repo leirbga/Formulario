@@ -3,50 +3,50 @@ body{
   margin: 0;
   padding: 0;
   background-color: #6A5ACD;
-  /* background: linear-gradient(to right, rgb(64, 10, 212), rgb(129, 9, 209)); */
 }
 
-@media(max-width: 920px){
+@media(max-width: 1049px){
     #myForm{
-    width: auto;
-    background-color: #ca98ca;
-    margin: 40px 40px 10px 40px;
-    padding: 40px;
-    display: grid;
-    row-gap: 15px;
-    border-radius: 20px;
-}
+        width: auto;
+        background-color: #ca98ca;
+        margin: 40px 40px 10px 40px;
+        padding: 40px;
+        display: grid;
+        row-gap: 15px;
+        border-radius: 20px;
+    }
 
-.form-div{
-    background-color: #5980a6;
-    display: flex;
-    flex-direction: column;
-    padding: 15px 30px;
-    margin: 1px;
-    border-radius: 5px;
-}
+    .form-div{
+        background-color: #5980a6;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 30px;
+        margin: 1px;
+        border-radius: 5px;
+    }
 }
 
 
 @media(min-width: 1050px){
     #myForm{
-    width: auto;
-    background-color: #ca98ca;
-    margin: 90px 600px 10px 600px;
-    padding: 40px;
-    display: grid;
-    row-gap: 15px;
-    border-radius: 20px;
-}
+        width: 100%;
+        max-width: 500px; 
+        background-color: #ca98ca;
+        margin: 90px auto 10px auto;
+        padding: 40px;
+        display: grid;
+        row-gap: 15px;
+        border-radius: 20px;
+    }
 
-.form-div{
-    background-color: #5980a6;
-    display: flex;
-    flex-direction: column;
-    padding: 15px 30px;
-    margin: 1px;
-    border-radius: 5px;
-}
+    .form-div{
+        background-color: #5980a6;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 30px;
+        margin: 1px;
+        border-radius: 5px;
+    }
 }
 
 
